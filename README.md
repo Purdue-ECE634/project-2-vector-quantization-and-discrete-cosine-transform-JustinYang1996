@@ -7,12 +7,12 @@ python VQ.py --name goldhill.png --L 128 --single 1
 
 set single to 0 when want to do multiple image training, and make sure all the training images are in the "training/" folder
 
-Note that please include the image that you want to quantize in the testing/ folder, and put the training images (if any) in the training/ folder
+Note that please include the image that you want to quantize in the "testing/" folder, and put the training images (if any) in the "training/" folder
 
 ## Part 2 - Discrete Cosine Transform 
 python DCT.py --name goldhill.png --K 32
 
-Note that please include the image that you want to do dct in the testing/ folder, and put the training images in the training/ folder
+Note that please include the image that you want to do dct in the "testing/" folder
 
 ## Part 1 - Vector Quantization
 Write a program to implement vector quantization on a gray-scale image using a "vector" that consists of
